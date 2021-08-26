@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/lucaschmelik/StartSociety/issues"
   },
-  "homepage": "https://github.com/lucaschmelik/StartSociety#readme"
+  "homepage": "https://github.com/lucaschmelik/StartSociety#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "i": "^0.3.6"
+  }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './Administrador/Header/Header'
+import Header from './AdminLayout/Header/Header'
 
-export default function MainLayout(){
+export default function AdminLayout(){
     return (
         <main>
             <Header></Header>

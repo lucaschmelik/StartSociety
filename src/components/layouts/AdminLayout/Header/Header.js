@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 export default function Head() {
     return (
         <nav class="nav nav-pills nav-fill">

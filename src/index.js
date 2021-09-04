@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
+import AdminLayout from './components/layouts/';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div>
+      <AdminLayout></AdminLayout>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -19,13 +19,12 @@ export default function FacturaCRUD() {
         numero: '',
         tipo: '',
         modal : {
-            modalInsert: false
+            modalInsert: false,
+            modalEdit: false
         }
-
     })
 
     const handleInputChange = (event) => {
-        console.log(event.target.value)
         setDatos({
             ...datos,
             [event.target.name]: event.target.value

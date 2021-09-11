@@ -5,9 +5,9 @@ import FacturaCRUD from "../../../views/AdminFactura";
 export default function Head() {
     return (
       <Router>
-        <nav class="nav nav-pills nav-fill">          
-          <Link class="nav-link active" to="/facturas">CRUD Facturas</Link>
-          <Link class="nav-link active" to="/clientes">CRUD Clientes</Link>         
+        <nav className="nav nav-pills nav-fill">          
+          <Link className="nav-link active" to="/facturas">CRUD Facturas</Link>
+          <Link className="nav-link active" to="/clientes">CRUD Clientes</Link>         
         </nav>
         <br/>
         <Switch>

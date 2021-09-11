@@ -1,5 +1,6 @@
 import React from 'react';
 import{BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
+import ClienteCRUD from '../../../views/AdminCliente/ClienteCRUD';
 import FacturaCRUD from "../../../views/AdminFactura";
 
 export default function Head() {
@@ -15,7 +16,7 @@ export default function Head() {
             <FacturaCRUD />
           </Route>
           <Route path="/clientes">
-            <h1>Cliente CRUD</h1>
+            <ClienteCRUD/>
           </Route>
         </Switch>
       </Router>
